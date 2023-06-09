@@ -48,7 +48,7 @@
 		BF062AB5254370050010FF6D /* aes.c in Sources */ = {isa = PBXBuildFile; fileRef = BF062AB4254370050010FF6D /* aes.c */; };
 		BF062ABA2543708E0010FF6D /* PlatformConfig.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF062AB82543708E0010FF6D /* PlatformConfig.cpp */; };
 		BF38C9EF2494133F005AFA8D /* Standard.deltamapping in Resources */ = {isa = PBXBuildFile; fileRef = BF38C9EE2494133F005AFA8D /* Standard.deltamapping */; };
-		BF39AFDF2534D2B500800781 /* Standard.deltaskin in Resources */ = {isa = PBXBuildFile; fileRef = BF39AFDE2534D2B500800781 /* Standard.deltaskin */; };
+		BF39AFDF2534D2B500800781 /* Standard.ignitedskin in Resources */ = {isa = PBXBuildFile; fileRef = BF39AFDE2534D2B500800781 /* Standard.ignitedskin */; };
 		BF73178A2356624000774F10 /* MelonDSDeltaCore.h in Headers */ = {isa = PBXBuildFile; fileRef = BF7317882356624000774F10 /* MelonDSDeltaCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BF74CC622553756B00060964 /* ARMJIT_LoadStore.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF74CC5C2553756B00060964 /* ARMJIT_LoadStore.cpp */; };
 		BF74CC632553756B00060964 /* ARMJIT_Linkage.s in Sources */ = {isa = PBXBuildFile; fileRef = BF74CC5D2553756B00060964 /* ARMJIT_Linkage.s */; };
@@ -170,7 +170,7 @@
 		BF062AB82543708E0010FF6D /* PlatformConfig.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PlatformConfig.cpp; path = melonDS/src/frontend/qt_sdl/PlatformConfig.cpp; sourceTree = SOURCE_ROOT; };
 		BF062AB92543708E0010FF6D /* PlatformConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlatformConfig.h; path = melonDS/src/frontend/qt_sdl/PlatformConfig.h; sourceTree = SOURCE_ROOT; };
 		BF38C9EE2494133F005AFA8D /* Standard.deltamapping */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Standard.deltamapping; sourceTree = "<group>"; };
-		BF39AFDE2534D2B500800781 /* Standard.deltaskin */ = {isa = PBXFileReference; lastKnownFileType = file; name = Standard.deltaskin; path = "Controller Skin/Standard.deltaskin"; sourceTree = "<group>"; };
+		BF39AFDE2534D2B500800781 /* Standard.ignitedskin */ = {isa = PBXFileReference; lastKnownFileType = file; name = Standard.ignitedskin; path = "Controller Skin/Standard.ignitedskin"; sourceTree = "<group>"; };
 		BF7317852356624000774F10 /* MelonDSDeltaCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MelonDSDeltaCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF7317882356624000774F10 /* MelonDSDeltaCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MelonDSDeltaCore.h; sourceTree = "<group>"; };
 		BF7317892356624000774F10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -332,7 +332,7 @@
 			isa = PBXGroup;
 			children = (
 				BF7317892356624000774F10 /* Info.plist */,
-				BF39AFDE2534D2B500800781 /* Standard.deltaskin */,
+				BF39AFDE2534D2B500800781 /* Standard.ignitedskin */,
 				BF38C9EE2494133F005AFA8D /* Standard.deltamapping */,
 			);
 			name = "Supporting Files";
@@ -524,7 +524,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF38C9EF2494133F005AFA8D /* Standard.deltamapping in Resources */,
-				BF39AFDF2534D2B500800781 /* Standard.deltaskin in Resources */,
+				BF39AFDF2534D2B500800781 /* Standard.ignitedskin in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
