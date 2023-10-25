@@ -1645,6 +1645,55 @@
           "backgroundBlur": true
         }
       }
+    },
+    "tv": {
+      "items": [
+        {
+          "inputs": {
+            "x": "touchScreenX",
+            "y": "touchScreenY"
+          },
+          "frame": {
+            "x": 0,
+            "y": 0.5,
+            "width": 1.0,
+            "height": 0.5
+          },
+          "placement": "app"
+        }
+      ],
+      "screens": [
+        {
+          "inputFrame": {
+            "x": 0,
+            "y": 0,
+            "width": 256,
+            "height": 192
+          },
+          "outputFrame": {
+            "x": 0,
+            "y": 0,
+            "width": 1.0,
+            "height": 0.5
+          },
+          "placement": "app"
+        },
+        {
+          "inputFrame": {
+            "x": 0,
+            "y": 192,
+            "width": 256,
+            "height": 192
+          },
+          "outputFrame": {
+            "x": 0,
+            "y": 0.5,
+            "width": 1.0,
+            "height": 0.5
+          },
+          "placement": "app"
+        }
+      ]
     }
   },
   "altRepresentations": {
@@ -3289,6 +3338,55 @@
           "backgroundBlur": true
         }
       }
+    },
+    "tv": {
+      "items": [
+        {
+          "inputs": {
+            "x": "touchScreenX",
+            "y": "touchScreenY"
+          },
+          "frame": {
+            "x": 0,
+            "y": 0.5,
+            "width": 1.0,
+            "height": 0.5
+          },
+          "placement": "app"
+        }
+      ],
+      "screens": [
+        {
+          "inputFrame": {
+            "x": 0,
+            "y": 0,
+            "width": 256,
+            "height": 192
+          },
+          "outputFrame": {
+            "x": 0,
+            "y": 0,
+            "width": 1.0,
+            "height": 0.5
+          },
+          "placement": "app"
+        },
+        {
+          "inputFrame": {
+            "x": 0,
+            "y": 192,
+            "width": 256,
+            "height": 192
+          },
+          "outputFrame": {
+            "x": 0,
+            "y": 0.5,
+            "width": 1.0,
+            "height": 0.5
+          },
+          "placement": "app"
+        }
+      ]
     }
   }
 }
