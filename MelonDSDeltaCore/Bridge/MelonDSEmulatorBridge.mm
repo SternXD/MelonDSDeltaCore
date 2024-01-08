@@ -616,12 +616,6 @@ void ParseTextCode(char* text, int tlen, u32* code, int clen) // or whatever thi
     return _audioConverter;
 }
 
-#pragma mark - Palette -
-
-- (void)updatePalette
-{
-}
-
 @end
 
 namespace Platform
