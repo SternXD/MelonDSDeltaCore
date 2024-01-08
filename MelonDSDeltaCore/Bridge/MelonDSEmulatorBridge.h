@@ -37,6 +37,8 @@ typedef NS_ENUM(NSInteger, MelonDSSystemType)
 @property (nonatomic, readonly) NSURL *dsiFirmwareURL;
 @property (nonatomic, readonly) NSURL *dsiNANDURL;
 
+- (void)prepareAudioEngine;
+
 @end
 
 NS_ASSUME_NONNULL_END
