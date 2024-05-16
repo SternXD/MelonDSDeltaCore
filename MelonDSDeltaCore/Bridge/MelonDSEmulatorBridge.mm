@@ -138,7 +138,7 @@ void ParseTextCode(char* text, int tlen, u32* code, int clen) // or whatever thi
         _audioEQEffect = [[AVAudioUnitEQ alloc] initWithNumberOfBands:2];
         
         _microphoneBuffer = [[DLTARingBuffer alloc] initWithPreferredBufferSize:100 * 1024];
-        _microphoneQueue = dispatch_queue_create("com.rileytestut.MelonDSDeltaCore.Microphone", DISPATCH_QUEUE_SERIAL);
+        _microphoneQueue = dispatch_queue_create("com.litritt.MelonDSDeltaCore.Microphone", DISPATCH_QUEUE_SERIAL);
         
         [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(handleAudioSessionInterruption:) name:AVAudioSessionInterruptionNotification object:nil];
     }

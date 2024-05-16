@@ -14,7 +14,7 @@ import DeltaCore
 #if !STATIC_LIBRARY
 public extension GameType
 {
-    static let ds = GameType("com.rileytestut.delta.game.ds")
+    static let ds = GameType("com.litritt.ignited.game.ds")
 }
 
 public extension CheatType
@@ -61,7 +61,7 @@ public struct MelonDS: DeltaCoreProtocol
     public static let core = MelonDS()
     
     public var name: String { "melonDS" }
-    public var identifier: String { "com.rileytestut.MelonDSDeltaCore" }
+    public var identifier: String { "com.litritt.MelonDSDeltaCore" }
     
     public var gameType: GameType { GameType.ds }
     public var gameInputType: Input.Type { MelonDSGameInput.self }

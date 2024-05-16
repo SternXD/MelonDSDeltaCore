@@ -169,7 +169,7 @@
 		BF062AB4254370050010FF6D /* aes.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = aes.c; path = "melonDS/src/tiny-AES-c/aes.c"; sourceTree = SOURCE_ROOT; };
 		BF062AB82543708E0010FF6D /* PlatformConfig.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PlatformConfig.cpp; path = melonDS/src/frontend/qt_sdl/PlatformConfig.cpp; sourceTree = SOURCE_ROOT; };
 		BF062AB92543708E0010FF6D /* PlatformConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlatformConfig.h; path = melonDS/src/frontend/qt_sdl/PlatformConfig.h; sourceTree = SOURCE_ROOT; };
-		BF38C9EE2494133F005AFA8D /* Standard.deltamapping */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Standard.deltamapping; sourceTree = "<group>"; };
+		BF38C9EE2494133F005AFA8D /* Standard.deltamapping */ = {isa = PBXFileReference; explicitFileType = file.bplist; path = Standard.deltamapping; sourceTree = "<group>"; };
 		BF39AFDE2534D2B500800781 /* Standard.ignitedskin */ = {isa = PBXFileReference; lastKnownFileType = file; name = Standard.ignitedskin; path = "Controller Skin/Standard.ignitedskin"; sourceTree = "<group>"; };
 		BF7317852356624000774F10 /* MelonDSDeltaCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MelonDSDeltaCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF7317882356624000774F10 /* MelonDSDeltaCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MelonDSDeltaCore.h; sourceTree = "<group>"; };
@@ -784,7 +784,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.rileytestut.MelonDSDeltaCore;
+				PRODUCT_BUNDLE_IDENTIFIER = com.litritt.MelonDSDeltaCore;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = YES;
@@ -814,7 +814,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.rileytestut.MelonDSDeltaCore;
+				PRODUCT_BUNDLE_IDENTIFIER = com.litritt.MelonDSDeltaCore;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = YES;
