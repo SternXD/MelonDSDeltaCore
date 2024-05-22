@@ -38,7 +38,7 @@ typedef NS_ENUM(NSInteger, MelonDSSystemType)
 @property (nonatomic, readonly) NSURL *dsiFirmwareURL;
 @property (nonatomic, readonly) NSURL *dsiNANDURL;
 
-- (void)prepareAudioEngine;
+@property (nonatomic, copy, nullable) NSURL *gbaGameURL;
 
 @end
 
