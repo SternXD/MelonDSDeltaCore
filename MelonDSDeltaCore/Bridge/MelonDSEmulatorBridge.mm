@@ -140,6 +140,8 @@ void ParseTextCode(char* text, int tlen, u32* code, int clen) // or whatever thi
         _microphoneBuffer = [[DLTARingBuffer alloc] initWithPreferredBufferSize:100 * 1024];
         _microphoneQueue = dispatch_queue_create("com.litritt.MelonDSDeltaCore.Microphone", DISPATCH_QUEUE_SERIAL);
         
+        _forceOpenLid = false;
+        
         [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(handleAudioSessionInterruption:) name:AVAudioSessionInterruptionNotification object:nil];
     }
     
@@ -256,9 +258,10 @@ void ParseTextCode(char* text, int tlen, u32* code, int clen) // or whatever thi
     {
         NDS::SetLidClosed(true);
     }
-    else if (NDS::IsLidClosed())
+    else if (NDS::IsLidClosed() || _forceOpenLid)
     {
         NDS::SetLidClosed(false);
+        _forceOpenLid = false;
     }
     
     static int16_t micBuffer[735];
