@@ -447,11 +447,11 @@ void ParseTextCode(char* text, int tlen, u32* code, int clen) // or whatever thi
         
         if (state == 0)
         {
-            NDS::SetLidClosed(NO);
+            [self deactivateInput:MelonDSGameInputLid at:0];
         }
         else
         {
-            NDS::SetLidClosed(YES);
+            [self activateInput:MelonDSGameInputLid value:1 at:0];
         }
         
         if (result != NOTIFY_STATUS_OK)
